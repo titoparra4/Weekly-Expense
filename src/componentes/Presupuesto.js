@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 class Presupuesto extends Component {
 	render() {
-		return <div className="alert alert-primary">Presupuesto: $ {this.props.presupuesto}</div>;
+		return <div className="alert alert-primary">Budget: $ {this.props.presupuesto}</div>;
 	}
 }
 

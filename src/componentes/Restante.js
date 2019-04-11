@@ -7,7 +7,7 @@ class Restante extends Component {
 		const presupuesto = this.props.presupuesto;
 		const restante = this.props.restante;
 
-		return <div className={revisarPresupuesto(presupuesto, restante)}>Restante: $ {this.props.restante}</div>;
+		return <div className={revisarPresupuesto(presupuesto, restante)}>Remaining: $ {this.props.restante}</div>;
 	}
 }
 

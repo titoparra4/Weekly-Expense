@@ -18,7 +18,7 @@ class App extends Component {
 	}
 
 	obtenerPresupuesto = () => {
-		let presupuesto = prompt('Cuel es el presupuesto?');
+		let presupuesto = prompt('What is the budget?');
 
 		let resultado = validarPresupuesto(presupuesto);
 		if (resultado) {

@@ -23,18 +23,18 @@ class FormularioGasto extends Component {
 	render() {
 		return (
 			<form onSubmit={this.crearGasto}>
-				<h2>Agrega tus gastos aqui</h2>
+				<h2>Add your expenses here</h2>
 				<div className="campo">
-					<label>Nombre Gasto</label>
-					<input ref={this.nombreGasto} className="u-full-width" type="text" placeholder="Ej. Transporte" />
+					<label>Name Expense</label>
+					<input ref={this.nombreGasto} className="u-full-width" type="text" placeholder="Ej. Transport" />
 				</div>
 
 				<div className="campo">
-					<label>Cantidad</label>
+					<label>Quantity</label>
 					<input ref={this.cantidadGasto} className="u-full-width" type="text" placeholder="Ej. 300" />
 				</div>
 
-				<input className="button-primary u-full-width" type="submit" value="Agregar" />
+				<input className="button-primary u-full-width" type="submit" value="Add" />
 			</form>
 		);
 	}
